@@ -13,13 +13,10 @@ body {
     background-color: var(--Violet);
     background-image: url(images/bg-mobile.svg);
     background-repeat: no-repeat;
+    background-position: -1px -7px;
     color: hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
     margin: auto 2.25rem;
-}
-
-h1 {
-
 }
 
 img {
