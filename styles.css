@@ -74,6 +74,7 @@ section a {
 @media (min-width: 600px) {
     body {
         background-image: url(images/bg-desktop.svg);
+        background-position: 5px -50px;
         margin: auto 5rem;
     }
 
@@ -82,7 +83,7 @@ section a {
     }
     
     .logo-width {
-        width: 13rem;
+        width: 11rem;
     }
 
     .container {
@@ -93,4 +94,22 @@ section a {
         text-align: left;
         margin-left: 3rem;
     }
+
+    section a {
+        padding: .75rem 3.5rem;
+    }
+
+    section h1 {
+        width: 28rem;
+        font-size: 2.6em;
+    }
+    section p {
+        width: 29rem;
+    }
+
+    a:hover {
+        background-color: var(--Soft-Magenta);
+        color: var(--White);
+    } 
+
 }
